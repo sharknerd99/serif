@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Serif Supremacy",
+  "version": "0.1",
+
+  "description": "Changes the font on any page to a serif font.",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["serif.js"]
+    }
+  ]
+}
