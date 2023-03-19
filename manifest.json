@@ -1,9 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "Serif Supremacy",
+  "name": "Serif Font Chooser",
   "version": "0.1",
 
   "description": "Changes the font on any page to a serif font.",
+
+  "icons": {
+    "48": "images/extension_icon.png"
+  },
 
   "content_scripts": [
     {
